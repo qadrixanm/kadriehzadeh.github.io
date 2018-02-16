@@ -1,0 +1,464 @@
+/* media objects */
+.media-left img{
+    height: 30%;
+}
+
+.media-right img{
+    height: 30%;
+}
+/*interests*/
+
+.intereststype{
+    width: 170px;
+    height: 200px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.interestSection{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.glyphicon-chevron-left{
+    /* background-color: #FF1493; */
+    box-shadow: 0;
+     height: 20%; 
+    color: #FF1493;
+    font-size: 18px;
+}
+.glyphicon-chevron-right{
+    /* background-color: #FF1493; */
+    box-shadow: 0;
+     height: 20%; 
+    color: #FF1493;
+    font-size: 18px;
+}
+.interest-text{
+    font-style: italic;
+}
+
+#ShowHijab img{
+    width: 220px;
+    height: 200px;
+    padding: 3px; 
+}
+
+.card-title {
+    text-align: center;
+}
+#ShowMakeup img{
+    width: 220px;
+    height: 200px;
+    padding: 3px; 
+}
+
+/* Portfolio */
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+  
+}
+
+.img-portfolio {
+    margin: 0 auto;
+    border-radius: 5px !important;
+/*    height: 50%;
+    width: 50%;*/
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Custom Button Styles */
+/*.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+*/
+#logo {
+    font-size: 2.3rem;
+}
+
+.navbar-inverse {
+    padding: 1rem 1.5rem;
+    font-size: 1.7rem;
+    background-color: #222;
+}
+
+.space-top {
+    margin-top: 7rem;
+}
+
+.content {
+    width: 100%;
+    min-height: 50em;
+    padding-left: 3em;
+    padding-right: 3em;
+    /*border: 1px solid black;*/
+}
+
+.portfolio-caption h3{
+    font-family: italic;
+}
+
+#header {
+    min-height: 60em;
+    background-image: url('../images/purple.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    padding-top: 2em;
+}
+#header img{
+    width: 29%;
+    height: 29%;
+}
+.rounded-circle {
+    border-radius: 50%;
+}
+
+#my-picture {
+    padding-top: 110px;
+    text-align: center;
+}
+
+#my-name {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    border-color: transparent;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Times New Roman", Times, sans-serif;
+    margin-top: .5em;
+}
+
+#degree{
+    color: white;
+    font-family: "Consolas", sans-serif;
+    text-align: center;
+}
+#summary{
+    color: white; 
+    font-family: italic; 
+    font-weight: bold;  
+    text-align: center;
+}
+.summary{
+    font-family: italic;
+    text-align: center;
+    padding-left: 22%;
+    padding-right: 22%;
+    color: white;
+}
+#header-btn {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#download {
+    margin-right: 1rem;
+}
+#skills-bar{
+    text-align: center;
+}
+
+/* override existing .btn */
+.header-btn {
+    opacity: .7;
+    background-color: #a51ead;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white !important;
+    font-family: italic;
+}
+
+.icon {
+    margin-right: 1rem;
+    color: 	#A9A9A9;
+}
+.fa-google-plus-square:hover{
+    color: #dd4b39;
+}
+
+.fa-github-square:hover{
+    color: grey;
+}
+.fa-twitter-square:hover{
+    color: #00aced;
+}
+.fa-facebook-square:hover{
+    color: #3b5998;
+}
+.fa-linkedin-square:hover {
+    color: #007bb6;
+}
+/*email modal  */
+.md-form {
+	margin-top: 12px;
+	display: inline-block;
+	position: relative;
+}
+.btn-primary{
+    margin-top: 5%;
+    background-color: #800080;
+    color: white !important;
+}
+#form8 {
+	border: 0;
+	padding: 2px 0;
+	border-bottom: 1px solid #ccc;
+	font: 15px/24px italic;
+	color: #333;
+	width: 275px;
+	box-sizing: border-box;
+	letter-spacing: 1px;
+}
+
+
+/*education */
+#ittlogo img{
+    width: 200px;
+    height: 200px;
+}
+#oldbawn img{
+ width: 200px;
+ height: 200px;
+}
+.text-left p{
+    font-family: italic; 
+    font-size: 125%;
+}
+#oldbawn h3{
+   font-family: italic;
+}
+.nav-tabs a{
+    font-family: italic;
+    /*color: purple;*/
+    font-size: 120%
+}
+
+.nav-tabs a:hover{
+    background-color: #00BFFF !important ;
+    color: white;
+}
+.showMoreBtn {
+    padding: 13px 25px;
+    background-color: #FF1493;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white !important;
+}
+.showMoreBtn:hover{
+    background-color: purple;
+}
+
+.showMoreBtns{
+    background-color: #FF1493;
+    padding: 13px 25px;
+    margin-right: 75%;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+#footer {
+    margin-top: 2rem;
+    background-color: #222;
+    color: #dcdcdc;
+    padding-bottom: 2rem;
+}
+
+.footertext{
+    color: dimgrey;
+}
+.center {
+    text-align: center;
+}
+
+/** Progressbar class css*/
+.progressbar {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    position: relative;
+    background-color: #EEEEEE;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+}
+
+.proggress{
+    height: 8px;
+    width: 10px;
+    background-color: #3498db;
+}
+
+.percentCount{
+    float:right;
+    margin-top: 10px;
+    clear: both;
+    font-weight: bold;
+    font-family: italic;
+}
+
+.skills-bar img{
+    height: 90px;
+    width: 90px;
+}
+
+p{
+    margin:0 0 25px;
+    font-size:18px;
+    line-height:1.6em;
+}
+a{
+    color:#26a5d3;
+}
+a:hover,a:focus{
+    text-decoration:none;
+    color:#26a5d3;
+}
+/*contact form*/
+#contact{
+    background:#333333;
+    color:#f4f4f4;
+    padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+}
+
+#contact {
+    background-image: url('../images/rose1.jpg');
+    background-position: center;
+    min-height: 60em;
+    margin: auto;
+    padding-top: 2em;
+}
+
+#contact {
+    padding: 30px 0PX;
+}
+#contact h2{
+    text-align: center; font-family: italic;
+}
+#contact .section-heading {
+    color: white;
+}
+#contact .form-group {
+    margin-bottom: 20px;
+}
+#contact .form-group input,
+#contact .form-group textarea {
+    padding: 15px;
+}
+#contact .form-group input.form-control {
+    height: auto;
+}
+#contact .form-group textarea.form-control {
+    height: 243px;
+}   
+#contact ::-webkit-input-placeholder {
+    font-family: italic;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: italic;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: italic;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+#contact :-ms-input-placeholder {
+    font-family: italic;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+.titleline-icon {
+    position: relative;
+    max-width: 100px;
+    border-top: 4px double #F99700;
+    margin: 20px auto 20px;
+}
+
+.titleline-icon:after {
+    position: absolute;
+    top: -11px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'FontAwesome';
+    content: "\f141";
+    font-size: 20px;
+    line-height: 1;
+    color: #F99700;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 20px;
+    background: #ffffff;
+}
+.btn-xl{
+    background-color: #800080;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white !important;
+    text-align: center;
+    padding: 13px;
+    margin: 0;
+    margin-left: 83%;
+}
+
+.btn-xl:hover{
+    background-color: black;
+}
+
+
+.contactInfo{
+   margin-bottom: 20px;
+}
+.contactInfo h2{
+    color:#fff; 
+    text-align: center; 
+    font-family: italic;
+}
+
+.form-group h5{
+    font-family: italic;
+}
+#message{
+    margin-top: 40px;
+}
+.col-md-4 p{
+    padding-top:20px;
+    color:white;
+    font-family: italic;
+}
+#experienceTitle p{
+    color:black;
+}
